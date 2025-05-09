@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Preload</title>
+</head>
+<body>
+    <h1>Video con Preload</h1>
+    <video controls preload="metadata" width="600">
+        <source src="/deiv.mp4" type="video/mp4">
+        Tu navegador no soporta el formato MP4.
+    </video>
+    <p>El atributo <code>preload="metadata"</code> carga solo los metadatos del video, como duración y dimensiones, sin descargar todo el archivo.</p>
+
+    <h2>Otros valores de preload:</h2>
+    <ul>
+        <li><code>auto</code>: Intenta descargar todo el video antes de que el usuario lo reproduzca.</li>
+        <li><code>none</code>: No descarga nada hasta que el usuario lo inicie.</li>
+    </ul>
+</body>
+</html>

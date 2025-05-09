@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario 03</title>
+</head>
+<body>
+
+  <form>
+    <fieldset>
+      <legend>Completar</legend>
+
+      <p>
+        <label for="color">Elija un color:</label>
+        <input type="color" name="color" id="color">
+      </p>
+
+      <p>
+        <label for="texto">Por favor, escriba aquí:</label>
+        <textarea name="texto" id="texto" rows="5" cols="53">Por favor, escriba aquí</textarea>
+      </p>
+
+      <p>
+        <label for="lenguaje">Lenguaje:</label>
+        <select name="lenguaje" id="lenguaje">
+          <option value="java">Java</option>
+          <option value="python">Python</option>
+          <option value="html">HTML</option>
+          <option value="visual_basic">Visual Basic</option>
+        </select>
+      </p>
+
+      <p>
+        <label>
+          <input type="checkbox" name="ciclo" value="cicloasir"> ASIR
+        </label>
+      </p>
+
+      <p>
+        <label>
+          <input type="checkbox" name="ciclo" value="ciclodam"> DAM
+        </label>
+      </p>
+
+      <p>
+        <label>
+          <input type="checkbox" name="ciclo" value="ciclodaw"> DAW
+        </label>
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Rellene las opciones siguientes</legend>
+
+      <p>
+        <label for="fecha">Elija una fecha:</label>
+        <input type="date" name="fecha" id="fecha">
+      </p>
+
+      <p>
+        <label for="fichero">Elija un fichero:</label>
+        <input type="file" name="fichero" id="fichero">
+      </p>
+
+      <p>
+        <label for="ciclo_multiple">Ciclo:</label>
+        <select name="ciclo_multiple" id="ciclo_multiple" multiple>
+          <option value="smir">SMIR</option>
+          <option value="asir">ASIR</option>
+          <option value="dam">DAM</option>
+          <option value="daw">DAW</option>
+        </select>
+      </p>
+    </fieldset>
+  </form>
+
+</body>
+</html>
